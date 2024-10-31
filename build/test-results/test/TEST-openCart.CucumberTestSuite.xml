@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="openCart.CucumberTestSuite" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-10-31T15:33:44" hostname="LAPTOPML-183635.local" time="10.651">
+  <properties/>
+  <testcase name="Complete purchase as a guest user" classname="openCart.CucumberTestSuite" time="10.651"/>
+  <system-out><![CDATA[
+Scenario: Complete purchase as a guest user ?[90m# features/search/search_by_keyword.feature:6?[0m
+  ?[32mGiven ?[0m?[32m?[0m?[32m?[1mSergey?[0m?[32m go to openCart page?[0m          ?[90m# openCart.stepdefinitions.OpenCartStepDefinitions.sergeyGoToOpenCartPage(net.serenitybdd.screenplay.Actor)?[0m
+  ?[32mWhen ?[0m?[32mBuy a ?[0m?[32m?[1m"MacBook"?[0m?[32m and ?[0m?[32m?[1m"iPhone"?[0m         ?[90m# openCart.stepdefinitions.OpenCartStepDefinitions.buyAAnd(java.lang.String,java.lang.String)?[0m
+  ?[32mThen ?[0m?[32mHe should see a confirmation message?[0m ?[90m# openCart.stepdefinitions.OpenCartStepDefinitions.heShouldSeeAConfirmationMessage()?[0m
+]]></system-out>
+  <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J(W): Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J(W): Ignoring binding found at [jar:file:/Users/camilo-garcia/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-classic/1.2.10/f69d97ef3335c6ab82fc21dfb77ac613f90c1221/logback-classic-1.2.10.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J(W): See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+oct. 31, 2024 10:33:45 A. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 130, returning the closest version; found: 127; Please update to a Selenium version that supports CDP version 130
+]]></system-err>
+</testsuite>
