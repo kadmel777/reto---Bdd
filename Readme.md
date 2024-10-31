@@ -15,7 +15,7 @@ Este proyecto contiene una prueba E2E automatizada para verificar el flujo de co
 
 1. **Clonar el repositorio**:
    ```bash
-   git clone <URL del repositorio>
+   git clone <https://github.com/kadmel777/reto---Bdd.git>
    cd <RetoBp>
 
 2. **Instalar dependencias:**
